@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <main className="h-screen w-screen bg-gradient-to-r from-[#45C680] from-10% via-[#3EF0DC] via-30% to-[#29E5DD] to-90%">
+      <main className="h-screen w-screen bg-gradient-to-r from-[#5ae79a] from-10% via-[#42fde7] via-70% to-[#2cddd4] to-90%">
         <Header />
       </main>
     </>
