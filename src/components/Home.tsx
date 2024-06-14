@@ -1,6 +1,12 @@
+import Header from "./Header"
+import Hero from "./Hero"
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="">
+      <Header />
+      <Hero />
+    </div>
   )
 }
 
