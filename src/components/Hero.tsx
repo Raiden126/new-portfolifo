@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
-    <section className="h-auto w-full flex items-start justify-center bg-gradient-to-r from-[#5ae79a] from-10% via-[#42fde7] via-70% to-[#2cddd4] to-90%">
-      <h1 className="text-4xl">Hello! I'm <span className="font-bold">Guddu Shakar Paul</span></h1>
+    <section className="h-screen w-full flex items-center justify-center mt-20">
+      <h1 className="text-9xl font-mono">Hello! <span className="text-9xl font-mono">I'm</span> <span className="font-bold">Guddu Shakar Paul</span></h1>
     </section>
   );
 };

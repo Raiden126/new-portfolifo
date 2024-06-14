@@ -4,11 +4,11 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
-import Header from "./components/Header";
 
 function App() {
   return (
-    <Router>
+    <main className="h-full w-full bg-gradient-to-r from-[#5ae79a] from-10% via-[#42fde7] via-70% to-[#2cddd4] to-90%">
+<Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -17,6 +17,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
     </Router>
+    </main>
+    
   );
 }
 
