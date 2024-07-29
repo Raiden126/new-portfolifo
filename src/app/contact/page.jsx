@@ -1,18 +1,21 @@
-import { Card, CardBody, CardHeader } from "@nextui-org/react";
+import { Card, CardBody, CardHeader, Divider } from "@nextui-org/react";
+import ContactForm from '../../components/ContactForm';
 
 const Contact = () => {
   return (
     <Card
       isBlurred
-      className="flex flex-col lg:flex-row h-auto w-4/5 mx-auto bg-gray-500"
+      className="flex flex-col md:flex-row h-auto w-4/5 lg:w-4/5 mx-auto sm:w-2/3 md:w-11/12 bg-gray-500"
       shadow="sm"
     >
       <div className="basis-1/2">
         <CardHeader className="text-3xl">Send Message</CardHeader>
-          <CardBody className="text-white">It's going to be a form</CardBody>
+        <Divider className="w-1/2 ml-4"/>
+        <CardBody className="text-white"><ContactForm /></CardBody>
       </div>
       <div className="basis-1/2">
         <CardHeader className="text-3xl">Get In Touch</CardHeader>
+        <Divider className="w-1/2 ml-4"/>
       </div>
     </Card>
   );
