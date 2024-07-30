@@ -1,5 +1,6 @@
 import { Card, CardBody, CardHeader, Divider } from "@nextui-org/react";
 import ContactForm from '../../components/ContactForm';
+import ContactGetInTouch from '../../components/ContactGetInTouch';
 
 const Contact = () => {
   return (
@@ -16,6 +17,7 @@ const Contact = () => {
       <div className="basis-1/2">
         <CardHeader className="text-3xl">Get In Touch</CardHeader>
         <Divider className="w-1/2 ml-4"/>
+        <CardBody className="text-white"><ContactGetInTouch /></CardBody>
       </div>
     </Card>
   );
