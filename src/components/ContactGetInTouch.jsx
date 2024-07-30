@@ -1,7 +1,7 @@
 "use client";
 import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaFacebook, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import {  FaGithub, FaLinkedin } from "react-icons/fa";
 
 const SocialMediaIcon = ({ Icon, link }) => {
     return (
@@ -26,10 +26,8 @@ const SocialMediaIcon = ({ Icon, link }) => {
           <p>guddupaul145@gmail.com</p>
         </div>
         <div className="flex mt-4 gap-4">
-          <SocialMediaIcon Icon={FaFacebook} link="https://www.facebook.com/yourprofile" />
-          <SocialMediaIcon Icon={FaGithub} link="https://github.com/yourprofile" />
-          <SocialMediaIcon Icon={FaLinkedin} link="https://www.linkedin.com/in/yourprofile" />
-          <SocialMediaIcon Icon={FaInstagram} link="https://www.instagram.com/yourprofile" />
+          <SocialMediaIcon Icon={FaGithub} link="https://github.com/Raiden126" />
+          <SocialMediaIcon Icon={FaLinkedin} link="https://www.linkedin.com/in/" />
         </div>
       </div>
     );

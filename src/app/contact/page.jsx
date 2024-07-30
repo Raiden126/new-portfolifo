@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <Card
       isBlurred
-      className="flex flex-col md:flex-row h-auto w-4/5 lg:w-4/5 mx-auto sm:w-2/3 md:w-11/12 bg-gray-500"
+      className="flex rounded-md flex-col md:flex-row h-full w-4/5 lg:w-4/5 mx-auto sm:w-2/3 md:w-11/12 bg-gray-500"
       shadow="sm"
     >
       <div className="basis-1/2">

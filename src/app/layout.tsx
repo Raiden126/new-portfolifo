@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from '../components/Header';
 import PageTransition from '../components/PageTransition';
 import StairTransition from '../components/StairTransition';
+import Footer from '../components/Footer';
 
 const jetBrainsMono = JetBrains_Mono({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
   variable: '--font-jetbrainsMono'
@@ -27,6 +28,7 @@ export default function RootLayout({
           <PageTransition>
           {children}
           </PageTransition>
+          <Footer />
         </body>
     </html>
   );
